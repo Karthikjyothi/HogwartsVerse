@@ -194,11 +194,11 @@ placeholder = Your Message
 Send Now
 
 Address:
-16, Lankaway
-Florida, USA 99544
+VITAP University
+Amaravati
 
 Phone:
-123 456 7890
+9638527410
 
 Email:
 support@support.com
@@ -226,4 +226,4 @@ Achievement
 Reviews
 Contact
 
-&copy; 2022 All right reserved. Made with ❤ by codewithsadee.
+Made with ❤ by Karthik.
