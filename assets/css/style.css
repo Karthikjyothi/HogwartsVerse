@@ -2,12 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
 
 
 /*-----------------------------------*\
@@ -116,7 +110,7 @@ textarea,
 ion-icon { display: block; }
 
 a {
-  color: inherit;
+  color: rgb(239, 211, 239);
   text-decoration: none;
 }
 
@@ -146,7 +140,7 @@ html {
 }
 
 body {
-  background-color: var(--white);
+  background-color: rgb(237, 212, 237);
   color: var(--sonic-silver);
   font-size: 1.6rem;
   line-height: 1.8;
@@ -155,13 +149,13 @@ body {
 :focus-visible { outline-offset: 4px; }
 
 ::selection {
-  background-color: var(--old-rose);
+  background-color: hsla(275, 88%, 44%, 0.866);
   color: var(--white);
 }
 
 ::-webkit-scrollbar { width: 10px; }
 
-::-webkit-scrollbar-track { background-color: hsl(0, 0%, 98%); }
+::-webkit-scrollbar-track { background-color: hsl(80, 5%, 89%); }
 
 ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
 
@@ -182,7 +176,7 @@ body {
 .section:nth-child(odd) { background-color: var(--seashell); }
 
 .section-subtitle {
-  color: var(--old-rose);
+  color: black;
   text-transform: uppercase;
   font-weight: var(--fw-700);
   letter-spacing: 4px;
@@ -406,9 +400,9 @@ body {
 .hero .hero-title { margin-block: 10px 25px; }
 
 .hero-banner {
-  padding-inline-start: 30px;
-  padding-block-end: 30px;
-  max-width: 420px;
+  padding-inline-start: 2px;
+  padding-block-end: 0px;
+  max-width: 4200px;
   margin-inline: auto;
 }
 
@@ -417,9 +411,9 @@ body {
 .hero-banner::before {
   top: 30px;
   right: 30px;
-  bottom: 0;
+  bottom: 1;
   left: 0;
-  background-color: var(--light-pink);
+  background-color: var(--chinese-violet);
   border-radius: var(--radius-10);
   z-index: -1;
 }
@@ -479,14 +473,14 @@ body {
 .benefits-card::before {
   width: 80px;
   height: 80px;
-  background-color: var(--old-rose_30);
+  background-color: var(--chinese-violet);
   transform: translateY(60px);
 }
 
 .benefits-card::after {
   width: 70px;
   height: 70px;
-  background-color: var(--chinese-violet_30);
+  background-color: var(--chinese-violet);
   transform: translateY(65px);
 }
 
@@ -520,9 +514,9 @@ body {
 \*-----------------------------------*/
 
 .chapter-card {
-  height: 100%;
+  height: 120%;
   background-color: var(--white);
-  padding: 25px;
+  padding: 50px;
   border-radius: var(--radius-5);
   box-shadow: var(--shadow-2);
   transition: var(--transition-2);
@@ -530,7 +524,7 @@ body {
 
 .chapter-card:is(:hover, :focus-within) { transform: translateY(-10px); }
 
-.chapter-card .card-title { margin-block-end: 15px; }
+.chapter-card .card-title { margin-block-end: 50px; }
 
 
 
@@ -873,7 +867,7 @@ textarea.input-field {
 
   .achievement-card { display: flex; }
 
-  .achievement-card > * { width: 50%; }
+  .achievement-card > * { width: "auto", height:"auto";}
 
   .achievement-card .card-content { padding-block: 30px; }
 
